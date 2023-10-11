@@ -109,7 +109,7 @@ document.onclick = function (e) {
 };
 
 const viewportWidth = window.innerWidth;
-var swiper = new Swiper(".swiper-container", {
+var swiper = new Swiper(".swiper-container1", {
   slidesPerView: viewportWidth > 991 ? 2.5 : viewportWidth > 476 ? 1.5 : 1.25,
   centeredSlides: true,
   paginationClickable: true,
@@ -118,6 +118,19 @@ var swiper = new Swiper(".swiper-container", {
   slideToClickedSlide: true,
   autoplay: {
     delay: 3000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
+});
+var swiper2 = new Swiper(".swiper-container2", {
+  slidesPerView: viewportWidth > 991 ? 2.5 : viewportWidth > 476 ? 1.5 : 1.25,
+  centeredSlides: true,
+  paginationClickable: true,
+  loop: true,
+  spaceBetween: 64,
+  slideToClickedSlide: true,
+  autoplay: {
+    delay: 5000,
     disableOnInteraction: false,
     pauseOnMouseEnter: true,
   },
