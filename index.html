@@ -1,440 +1,862 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TargetConvert 轉客來策略行銷</title>
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="TargetConvert轉客來策略行銷 - 一站式打造行銷生態圈，全方位提升企業行銷效率">
-    <meta name="description" content="TargetConvert轉客來策略行銷 - 一站式打造行銷生態圈，全方位提升企業行銷效率">
+    <meta
+      name="title"
+      content="TargetConvert轉客來策略行銷 - 一站式打造行銷生態圈，全方位提升企業行銷效率"
+    />
+    <meta
+      name="description"
+      content="TargetConvert轉客來策略行銷 - 一站式打造行銷生態圈，全方位提升企業行銷效率"
+    />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://targetconvert.com">
-    <meta property="og:title" content="TargetConvert轉客來策略行銷 - 一站式打造行銷生態圈，全方位提升企業行銷效率">
-    <meta property="og:description" content="TargetConvert轉客來策略行銷 - 一站式打造行銷生態圈，全方位提升企業行銷效率">
-    <meta property="og:image" content=" https://targetconvert.com/assets/images/banner/banner-bg.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://targetconvert.com" />
+    <meta
+      property="og:title"
+      content="TargetConvert轉客來策略行銷 - 一站式打造行銷生態圈，全方位提升企業行銷效率"
+    />
+    <meta
+      property="og:description"
+      content="TargetConvert轉客來策略行銷 - 一站式打造行銷生態圈，全方位提升企業行銷效率"
+    />
+    <meta
+      property="og:image"
+      content=" https://targetconvert.com/assets/images/banner/banner-bg.png"
+    />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://targetconvert.com">
-    <meta property="twitter:title" content="TargetConvert轉客來策略行銷 - 一站式打造行銷生態圈，全方位提升企業行銷效率">
-    <meta property="twitter:description" content="TargetConvert轉客來策略行銷 - 一站式打造行銷生態圈，全方位提升企業行銷效率">
-    <meta property="twitter:image" content=" https://targetconvert.com/assets/images/banner/banner-bg.png">
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://targetconvert.com" />
+    <meta
+      property="twitter:title"
+      content="TargetConvert轉客來策略行銷 - 一站式打造行銷生態圈，全方位提升企業行銷效率"
+    />
+    <meta
+      property="twitter:description"
+      content="TargetConvert轉客來策略行銷 - 一站式打造行銷生態圈，全方位提升企業行銷效率"
+    />
+    <meta
+      property="twitter:image"
+      content=" https://targetconvert.com/assets/images/banner/banner-bg.png"
+    />
 
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="assets/images/logo/logo.ico" type="image/svg" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo/logo.ico"
+      type="image/svg"
+    />
+
+    <!-- accordion -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.css"
+    />
+    <script src="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.js"></script>
+
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- font -->
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: [
+            "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic",
+            "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic",
+            "Jua:400",
+          ],
+        },
+      });
+    </script>
 
     <!-- ===== All CSS files ===== -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
+
     <link rel="stylesheet" href="assets/css/lineicons.css" />
-    <link rel="stylesheet" href="assets/css/ud-styles.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- Facebook Pixel Code -->
     <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '4896748667031492');
-        fbq('track', 'PageView');
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "4896748667031492");
+      fbq("track", "PageView");
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-             src="https://www.facebook.com/tr?id=4896748667031492&ev=PageView&noscript=1" /></noscript>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=4896748667031492&ev=PageView&noscript=1"
+    /></noscript>
     <!-- End Facebook Pixel Code -->
 
     <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-TWS3866');</script>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-TWS3866");
+    </script>
     <!-- End Google Tag Manager -->
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWS3866"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TWS3866"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <!-- ====== Header Start ====== -->
-    <header class="ud-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <nav class="navbar navbar-expand-lg">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="assets/images/logo/logo.png" alt="Logo" />
-                        </a>
-                        <button class="navbar-toggler">
-                            <span class="toggler-icon"> </span>
-                            <span class="toggler-icon"> </span>
-                            <span class="toggler-icon"> </span>
-                        </button>
-
-                        <div class="navbar-collapse">
-                            <ul id="nav" class="navbar-nav mx-auto">
-                                <li class="nav-item">
-                                    <a class="ud-menu-scroll" href="#home">首頁</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="ud-menu-scroll" href="#features">未來</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="ud-menu-scroll" href="#about">關於</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="ud-menu-scroll" href="#contact">聯絡我們</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="navbar-btn d-none d-sm-inline-block">
-                        </div>
-                    </nav>
-                </div>
+    <main>
+      <nav class="nav-outer">
+        <div class="nav container">
+          <a href="/index.html">
+            <img
+              src="/assets/images/logo/logo-2.png"
+              loading="lazy"
+              alt="targetConvert logo"
+              class="logo"
+            />
+          </a>
+          <div class="nav-links">
+            <a href="#plan" id="plan-nav"> 解決方案 </a>
+            <a href="#feature" id="feature-nav"> 產品特色 </a>
+          </div>
+          <div class="nav-actions">
+            <a href="onboarding.html" class="contact" id="contact">聯絡我們</a>
+          </div>
+          <div class="nav-hamburger" id="nav-hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+          <div class="nav-mobile" id="nav-mobile">
+            <div class="nav-links">
+              <a href="#plan" id="plan-mobile"> 解決方案 </a>
+              <a href="#feature" id="feature-mobile"> 產品特色 </a>
             </div>
-        </div>
-    </header>
-    <!-- ====== Header End ====== -->
-
-    <!-- ====== Hero Start ====== -->
-    <section class="ud-hero" id="home">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
-                        <h1 class="ud-hero-title">
-                            All-in-one Marketing Platform
-                        </h1>
-                        <p class="ud-hero-desc">
-                            一站式打造行銷生態圈，全方位提升企業行銷效率
-                        </p>
-                    </div>
-                    <ul class="ud-hero-buttons">
-                        <li>
-                            <a href="mailto://targetconvert.service@gmail.com" rel="nofollow noopener" target="_blank"
-                               class="ud-main-btn ud-white-btn">
-                                聯絡我們
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="ud-hero-image wow fadeInUp" data-wow-delay=".25s">
-                        <img src="assets/images/hero/hero-image.png" class="hero-img" alt="hero-image" />
-                        <img src="assets/images/hero/dotted-shape.svg" alt="shape" class="shape shape-1" />
-                        <img src="assets/images/hero/dotted-shape.svg" alt="shape" class="shape shape-2" />
-                    </div>
-                </div>
+            <div class="nav-actions">
+              <a href="onboarding.html" class="contact" id="contact-mobile"
+                >聯絡我們</a
+              >
             </div>
+          </div>
         </div>
-    </section>
-    <!-- ====== Hero End ====== -->
-
-    <!-- ====== Features Start ====== -->
-    <section id="features" class="ud-features">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="ud-section-title">
-                        <span>未來</span>
-                        <h2>我們不包裝<div class="text-system-pink" style="display:contents">AI</div><br>
-                            但真實運用<div class="text-system-pink" style="display:contents">AI</div>解決事情
-                        </h2>
-
-                        <p>
-                            We do not package AI<br>
-                            But really use AI to solve things.
-                        </p>
-                    </div>
-                </div>
+      </nav>
+      <section class="hero-outer">
+        <div class="hero container">
+          <div
+            class="content"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1000"
+          >
+            <div class="bg"></div>
+            <h1 class="heading" style="z-index: 2">
+              專注於 AI 行銷自動化工具的開發 <br />
+              全方位提升企業行銷效率
+            </h1>
+            <p style="z-index: 2">
+              TargetConvert
+              是一群數位廣告優化師與工程師組成的公司，有數十年廣告投放經驗，深知廣告產業痛點，致力開發實用的行銷自動化工具，為廣告業「數位轉型」，降低營運成本，加速行銷效率，讓行銷人發揮更專業的價值，成就客戶服務品質！
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="hero-outer hero-outer-2">
+        <div class="hero container">
+          <div class="content">
+            <p
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1000"
+            >
+              更智慧地完成行銷工作
+            </p>
+            <h1
+              class="heading"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1000"
+            >
+              TC-Report<br />數位廣告報表系統
+            </h1>
+            <div
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              <a href="onboarding.html" class="access-button" id="get-access"
+                >聯絡我們</a
+              >
             </div>
-            <div class="row">
-                <div class="col-xl-3 col-lg-3 col-sm-6">
-                    <div class="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
-                        <div class="ud-feature-icon">
-                            <i class="lni lni-grow"></i>
-                        </div>
-                        <div class="ud-feature-content">
-                            <h3 class="ud-feature-title">TC-Creativity</h3>
-                            <p class="ud-feature-desc">
-                                一站式廣告投放，投放技巧不受平台限制
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-sm-6">
-                    <div class="ud-single-feature wow fadeInUp" data-wow-delay=".15s">
-                        <div class="ud-feature-icon">
-                            <i class="lni lni-stats-up"></i>
-                        </div>
-                        <div class="ud-feature-content">
-                            <h3 class="ud-feature-title">TC-Planner</h3>
-                            <p class="ud-feature-desc">
-                                5分鐘建立關鍵字廣告，不依賴人工建議書
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-sm-6">
-                    <div class="ud-single-feature wow fadeInUp" data-wow-delay=".2s">
-                        <div class="ud-feature-icon">
-                            <i class="lni lni-layout"></i>
-                        </div>
-                        <div class="ud-feature-content">
-                            <h3 class="ud-feature-title">TC-Report</h3>
-                            <p class="ud-feature-desc">
-                                一站蒐集所有媒體數據，你要的通通放一起
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-sm-6">
-                    <div class="ud-single-feature wow fadeInUp" data-wow-delay=".25s">
-                        <div class="ud-feature-icon">
-                            <i class="lni lni-customer"></i>
-                        </div>
-                        <div class="ud-feature-content">
-                            <h3 class="ud-feature-title">TC-Brain</h3>
-                            <p class="ud-feature-desc">
-                                不只是廣告監測、更即時提供客製行銷方案
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div
+              class="description"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <span
+                >節省各表單數據整理與不同平台資訊彙整的時間，<br />
+                清楚簡潔的數據呈現，有利洞察與分析。<br />
+                不再被瑣碎又重複的工作佔據你的大半時間，<br />
+                讓你專注在廣告成效優化上！</span
+              >
+              <div class="icons">
+                <img
+                  src="/assets/images/icon/ads.svg"
+                  alt="ads"
+                  width="45"
+                  height="46"
+                />
+                <img
+                  src="/assets/images/icon/fb.svg"
+                  alt="fb"
+                  width="45"
+                  height="46"
+                />
+                <img
+                  src="/assets/images/icon/ig.svg"
+                  alt="ig"
+                  width="45"
+                  height="46"
+                />
+                <img
+                  src="/assets/images/icon/yt.svg"
+                  alt="yt"
+                  width="45"
+                  height="46"
+                />
+              </div>
             </div>
+          </div>
+          <div
+            class="picture"
+            data-aos="zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1000"
+            data-aos-delay="700"
+          >
+            <p>Cross Media Report System</p>
+            <img
+              class="image mobile"
+              src="/assets/images/hero/hero-2.webp"
+              alt="Cross Media Report System"
+              loading="lazy"
+              width="720"
+              height="475"
+            />
+          </div>
         </div>
-    </section>
-    <!-- ====== Features End ====== -->
+      </section>
+      <section class="feature-header-outer" id="features">
+        <div class="custom-shape-divider-bottom">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div class="feature-header container">
+          <span class="small-text"> 我們正在面臨的困境 </span>
+          <span>
+            行銷的工作包山包海，同時要處理多項工作是一個
+            <span class="hint">充滿壓力</span> 和
+            <span class="hint">與時間賽跑</span> 的過程。
+          </span>
+        </div>
+      </section>
 
-    <!-- ====== About Start ====== -->
-    <section id="about" class="ud-about">
-        <div class="container">
-            <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
-                <div class="ud-about-content-wrapper">
-                    <div class="ud-about-content">
-                        <span class="tag">關於我們</span>
-                        <h2>您有品牌<div class="text-system-pink" style="display:contents">Target</div><br>我們是您達成<div
-                                 class="text-system-yellow" style="display:contents">Convert</div>的最佳夥伴</h2>
-                        <p>
-                            我們擁有多年數位廣告經驗、及成效型數據分析背景，深知數位行銷生態圈的困境及挑戰，致力創造一站式行銷平台，運用強大AI技術，提供所有行銷人實用的Martech工具
-                        </p>
+      <section class="feature-comment-outer">
+        <div class="feature-comment">
+          <div class="slider">
+            <span>你是否也遇到以下煩惱?</span>
 
-                        <p>Committed to creating a one-stop marketing platform, using powerful AI technology to provide all
-                            marketers with practical Martech tools
-                        </p>
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container">
+                    <span>“</span>
+                    <div class="content">
+                      <p>
+                        AM人員流動，無法維持一致的
+                        <b class="red">服務品質</b>
+                        。
+                      </p>
                     </div>
+
+                    <span>“</span>
+                  </div>
                 </div>
-                <div class="ud-about-image">
-                    <img src="assets/images/about/about-image.svg" alt="about-image" />
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container">
+                    <span>“</span>
+                    <div class="content">
+                      <p>
+                        招募一位有經驗且有能力的AM，讓
+                        <b class="red">人力成本</b>
+                        大幅提升？
+                      </p>
+                    </div>
+                    <span>“</span>
+                  </div>
                 </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container">
+                    <span>“</span>
+                    <div class="content">
+                      <p>
+                        高強度高工時的工作環境，使
+                        <b class="red">AM留存率</b>
+                        始終低迷？
+                      </p>
+                    </div>
+
+                    <span>“</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container">
+                    <span>“</span>
+                    <div class="content">
+                      <p>
+                        招募一位廣告 AM 相較以往
+                        <b class="red">花3倍時間</b>
+                        才能找到？
+                      </p>
+                    </div>
+
+                    <span>“</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container">
+                    <span>“</span>
+                    <div class="content">
+                      <p>
+                        ＡＭ拉報表花大半時間，優化客戶
+                        <b class="red">廣告成效</b>
+                        的時間有限？
+                      </p>
+                    </div>
+                    <span>“</span>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-    <!-- ====== About End ====== -->
-
-
-    <!-- ====== Contact Start ====== -->
-    <section id="contact" class="ud-contact">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-8 col-lg-7">
-                    <div class="ud-contact-content-wrapper">
-                        <div class="ud-contact-title">
-                            <span>聯絡我們</span>
-                            <h2>
-                                Let’s talk about <br />
-                                Love to hear from you!
-                            </h2>
-                        </div>
-                        <div class="ud-contact-info-wrapper">
-                            <div class="ud-single-info">
-                                <div class="ud-info-icon">
-                                    <i class="lni lni-envelope"></i>
-                                </div>
-                                <div class="ud-info-meta">
-                                    <h5>How Can We Help?</h5>
-                                    <p>targetconvert.service@gmail.com</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-5">
-                    <div class="ud-contact-form-wrapper wow fadeInUp" data-wow-delay=".2s">
-                        <h3 class="ud-contact-form-title">Send us a Message</h3>
-                        <form class="ud-contact-form">
-                            <div class="ud-form-group">
-                                <label for="fullName">Full Name*</label>
-                                <input type="text" name="fullName" placeholder="Adam Gelius" />
-                            </div>
-                            <div class="ud-form-group">
-                                <label for="email">Email*</label>
-                                <input type="email" name="email" placeholder="example@yourmail.com" />
-                            </div>
-                            <div class="ud-form-group">
-                                <label for="phone">Phone*</label>
-                                <input type="text" name="phone" placeholder="+885 1254 5211 552" />
-                            </div>
-                            <div class="ud-form-group">
-                                <label for="message">Message*</label>
-                                <textarea name="message" rows="1" placeholder="type your message here"></textarea>
-                            </div>
-                            <div class="ud-form-group mb-0">
-                                <a href="mailto://targetconvert.service@gmail.com">
-                                    <button type="button" class="ud-main-btn">
-                                        Send Message
-                                    </button>
-                                </a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+      </section>
+      <section class="report-table-outer">
+        <div class="report-table">
+          <h3>TC-Report 解決你的數位廣告難題</h3>
+          <img src="/assets/images/report/table.webp" alt="" />
+        </div>
+      </section>
+      <section
+        class="feature-outer feature-1"
+        id="plan"
+        style="scroll-margin-top: 8em"
+      >
+        <div class="feature container">
+          <div
+            class="picture"
+            data-aos="zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1000"
+          >
+            <img
+              src="/assets/images/feature/feature-1.webp"
+              loading="lazy"
+              alt="效率提升"
+            />
+          </div>
+          <div class="content">
+            <div
+              class="title"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1000"
+            >
+              <span>效率提升</span>
+              <div class="line"></div>
             </div>
-        </div>
-    </section>
-    <!-- ====== Contact End ====== -->
+            <div class="descriptions">
+              <div
+                class="text"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                平均減少70%的時間，若一天有5間客戶要產出報表，要花
+                100分鐘拉取，現在只需要不用10分鐘就能完成。
+              </div>
+              <div
+                class="description"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                <img src="/assets/images/icon/Cake.svg" loading="lazy" alt="" />
+                <span> 客製化報表，點選欄位指標，快速製作廣告報表 </span>
+              </div>
+              <div
+                class="description"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
+                <img
+                  src="/assets/images/icon/ChartPieSlice.svg"
+                  loading="lazy"
+                  alt=""
+                />
 
-    <!-- ====== Footer Start ====== -->
-    <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
-        <div class="shape shape-1">
-            <img src="assets/images/footer/shape-1.svg" alt="shape" />
-        </div>
-        <div class="shape shape-2">
-            <img src="assets/images/footer/shape-2.svg" alt="shape" />
-        </div>
-        <div class="shape shape-3">
-            <img src="assets/images/footer/shape-3.svg" alt="shape" />
-        </div>
-        <div class="ud-footer-widgets">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="ud-widget">
-                            <a href="index.html" class="ud-footer-logo">
-                                <img src="assets/images/logo/logo.png" alt="logo" />
-                            </a>
-                            <p class="ud-widget-desc">
-                                All-in-one Marketing Platform<br>
-                                一站式打造行銷生態圈，全方位提升企業行銷效率
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
-                        <div class="ud-widget">
-                            <h5 class="ud-widget-title">關於我們</h5>
-                            <ul class="ud-widget-links">
-                                <li>
-                                    <a href="#home">首頁</a>
-                                </li>
-                                <li>
-                                    <a href="#features">未來</a>
-                                </li>
-                                <li>
-                                    <a href="#about">關於</a>
-                                </li>
-                                <li>
-                                    <a href="#contact">聯絡我們</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <span> 自訂不同客戶專屬報表，下次不用再重新拉取 </span>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="ud-footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <ul class="ud-footer-bottom-left">
-                            <li>
-                                <a href="/privacy-policy.html">Privacy policy</a>
-                            </li>
-                            <li>
-                                <a href="/terms-of-use.html">Terms Of Use</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <p class="ud-footer-bottom-right">
-                            Designed and Developed by
-                            <a rel="nofollow">轉客來策略行銷顧問有限公司</a>
-                        </p>
-                    </div>
-                </div>
+      </section>
+      <section class="feature-outer feature-analyzer-outer">
+        <div class="feature feature-analyzer container">
+          <div
+            class="picture"
+            data-aos="zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1000"
+          >
+            <img
+              src="/assets/images/feature/feature-2.webp"
+              loading="lazy"
+              alt="降低成本"
+            />
+          </div>
+          <div class="content">
+            <div
+              class="title"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1000"
+            >
+              <span>降低人力成本</span>
+              <div class="line"></div>
             </div>
-        </div>
-    </footer>
-    <!-- ====== Footer End ====== -->
+            <div class="descriptions">
+              <div
+                class="text"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                效率變高產出也會相對應提升，AM能承接的客戶也增加，以往30家客戶需要兩位AM，現在只需要一位AM就能服務，降低人力負擔，平均每位AM省下
+                28K / 月。
+              </div>
+              <div
+                class="description"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                <img
+                  src="/assets/images/icon/Target.svg"
+                  loading="lazy"
+                  alt=""
+                />
+                <span> 報表產出量從15家客戶提升至30家 </span>
+              </div>
+              <div
+                class="description"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
+                <img
+                  src="/assets/images/icon/Sparkle.svg"
+                  loading="lazy"
+                  alt=""
+                />
 
-    <!-- ====== Back To Top Start ====== -->
-    <a href="javascript:void(0)" class="back-to-top">
+                <span> 多出70%的時間服務客戶，相當每位AM至少省下28K / 月 </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="feature-outer feature-3">
+        <div class="feature container">
+          <div
+            class="picture"
+            data-aos="zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1000"
+          >
+            <img
+              src="/assets/images/feature/feature-3.webp"
+              loading="lazy"
+              alt="服務品質"
+            />
+          </div>
+          <div class="content">
+            <div
+              class="title"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1000"
+            >
+              <span>提升服務品質</span>
+              <div class="line"></div>
+            </div>
+            <div class="descriptions">
+              <span
+                class="text"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                多出的時間，AM能做更多廣告優化及分析，廣告成效更加提升，有效降低40%的客戶流失率。並且數據資料都留系統上，降低人員異動時，對客戶服務品質不一致的情況。
+              </span>
+              <div
+                class="description"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                <img
+                  src="/assets/images/icon/Trophy.svg"
+                  loading="lazy"
+                  alt=""
+                />
+
+                <span> 色階圖表顯示關鍵數據，更方便分析與洞察 </span>
+              </div>
+              <div
+                class="description"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
+                <img
+                  src="/assets/images/icon/Strategy.svg"
+                  loading="lazy"
+                  alt=""
+                />
+
+                <span> 歷史報表數據留存，前後數據比對方便 </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="report-value-outer">
+        <div class="report-value">
+          <img
+            src="/assets/images/report/report-value.png"
+            alt="report-value"
+            width="630"
+            height="160"
+          />
+          <h2>TC-Report 一鍵匯出</h2>
+          <span id="feature">全面開放廣告代理商導入自家企業團隊</span>
+        </div>
+      </section>
+      <section class="card-outer">
+        <div class="card">
+          <img src="/assets/images/card/card-1.webp" alt="" />
+          <img src="/assets/images/card/card-2.webp" alt="" />
+          <img src="/assets/images/card/card-3.webp" alt="" />
+        </div>
+      </section>
+      <section class="feature-comment-outer">
+        <div class="feature-comment">
+          <div class="slider">
+            <span>行銷人怎麼說?</span>
+
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container">
+                    <span>“</span>
+                    <div class="content">
+                      <div class="info">
+                        <img
+                          src="/assets/images/avatar/avatar-1.png"
+                          class="avatar"
+                          alt=""
+                        />
+                        <div class="name">Gini</div>
+                        <div class="career">行銷工作1年</div>
+                      </div>
+                      <p>
+                        我原本從事其他產業多年，一年前投入廣告業闖蕩，
+                        <b class="red"
+                          >但每天都在整理報表、進稿就佔據大半時間</b
+                        >
+                        ，如果沒有自動化的報表系統，真的很難有時間做其他事情。
+                      </p>
+                    </div>
+
+                    <span>“</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container">
+                    <span>“</span>
+                    <div class="content">
+                      <div class="info">
+                        <img
+                          src="/assets/images/avatar/avatar-2.png"
+                          class="avatar"
+                          alt=""
+                        />
+                        <div class="name">Jennifer</div>
+                        <div class="career">行銷工作6個月</div>
+                      </div>
+                      <p>
+                        這是我剛畢業第一份工作，雖然才剛踏入數位廣告產業，
+                        <b class="red">但已經要負責好幾十個客戶廣告帳號</b>
+                        ，每天加班已是常態，但自引進TC-Report後，我加班的頻率越來越少，也有更多時間服務客戶。
+                      </p>
+                    </div>
+
+                    <span>“</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container">
+                    <span>“</span>
+                    <div class="content">
+                      <div class="info">
+                        <img
+                          src="/assets/images/avatar/avatar-3.png"
+                          class="avatar"
+                          alt=""
+                        />
+                        <div class="name">William</div>
+                        <div class="career">行銷工作13年</div>
+                      </div>
+                      <p>
+                        我自己也是一家廣告代理商的老闆，看著這個產業從有流量紅利的時代，到現在各家代理商如雨後春筍般出現，現在經營起來實在不容易，薪資成本逐漸攀升，毛利也越來越薄，
+                        <b class="red">未來趨勢真的要靠系統自動化來解決</b>
+                        !
+                      </p>
+                    </div>
+
+                    <span>“</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container">
+                    <span>“</span>
+                    <div class="content">
+                      <div class="info">
+                        <img
+                          src="/assets/images/avatar/avatar-4.png"
+                          class="avatar"
+                          alt=""
+                        />
+                        <div class="name">Jullian</div>
+                        <div class="career">行銷工作8年</div>
+                      </div>
+                      <p>
+                        身為代理商優化部主管，這幾年
+                        <b class="red">要找到頂尖數位行銷人才非常困難</b>
+                        ，部門內龐大的工作無法被消化，若沒有導入像TC-Report這樣的行銷自動化系統，要維持客戶服務品質會是很大的挑戰。
+                      </p>
+                    </div>
+
+                    <span>“</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-container">
+                    <span>“</span>
+                    <div class="content">
+                      <div class="info">
+                        <img
+                          src="/assets/images/avatar/avatar-5.png"
+                          class="avatar"
+                          alt=""
+                        />
+                        <div class="name">Edward</div>
+                        <div class="career">行銷工作3年</div>
+                      </div>
+                      <p>
+                        我在行銷業3年了，現在的客戶對於廣告服務要求越來越多，工作量幾乎有增無減，TC-Report
+                        可以快速產出數據報表，
+                        <b class="red">能讓我跟客戶快速對焦，調整廣告方向</b>
+                        。
+                      </p>
+                    </div>
+
+                    <span>“</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="more-outer">
+        <div class="more">
+          <h3>更多解決方案讓你的行銷日常更輕鬆</h3>
+          <div class="solution">
+            <img src="/assets/images/more/more-1.webp" alt="" />
+            <div class="content">
+              <h3>關鍵字廣吿 Solution</h3>
+              <p>
+                只要有商品，就能快速產生一份完整建議書架構！提供線上大量修改建議書功能，快速與客戶對焦廣告細節，一鍵上傳至廣告後台不再是夢想！
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="early-success container">
+          <div class="content">
+            <h1 class="heading">
+              立即聯繫<br />TargetConvert<br />加速行銷效率
+            </h1>
+            <div class="down-arrow">
+              <img
+                src="/assets/images/more/down-arrow.png"
+                loading="lazy"
+                width="34"
+                alt=""
+              />
+            </div>
+            <a href="/onboarding.html" class="access-button" id="get-access-2"
+              >聯絡我們</a
+            >
+          </div>
+          <div class="side-container">
+            <div
+              class="picture"
+              data-aos="zoom-in"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="1000"
+            >
+              <img
+                src="/assets/images/more/more-2.webp"
+                alt="easy work"
+                loading="lazy"
+                width="565"
+              />
+            </div>
+            <span>When work is a pleasure, life is joy!</span>
+          </div>
+        </div>
+      </section>
+      <footer class="footer-outer">
+        <div class="footer">
+          <div class="information">
+            <img
+              src="/assets/images/logo/logo.png"
+              class="logo"
+              alt="logo"
+              width="198"
+              height="30"
+            />
+            <div class="line"></div>
+            <span
+              >轉客來TargetConvert要做的是一個比行銷顧問還要懂消費者的科技公司。
+              一群在數位行銷產業多年的夥伴，因為熱愛數位行銷而深度投入，但也看見行銷上正在經歷的困難與挑戰，聚集在一起只為了完成一個目標，致力開發一個可以讓行銷人更幸福的自動化系統．</span
+            >
+          </div>
+          <div class="side-container">
+            <div class="copyright">
+              <span>Copyright © 2023 hey!Bear. All rights reserved.</span>
+              <span>轉客來策略行銷顧問有限公司</span>
+              <span>106066 台北市大安區信義路四段250號5樓之1 </span>
+            </div>
+            <!-- <div class="privacy">
+              <div>
+                <a href="privacy-policy.html" target="_blank">隱私權政策</a>
+              </div>
+              |
+              <div>
+                <a href="terms-of-service.html" target="_blank">使用條款</a>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </footer>
+      <div class="back-to-top">
         <i class="lni lni-chevron-up"> </i>
-    </a>
-    <!-- ====== Back To Top End ====== -->
+      </div>
+    </main>
 
     <!-- ====== All Javascript Files ====== -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
+
     <script src="assets/js/main.js"></script>
-    <script>
-        // ==== for menu scroll
-        const pageLink = document.querySelectorAll(".ud-menu-scroll");
-
-        pageLink.forEach((elem) => {
-            elem.addEventListener("click", (e) => {
-                e.preventDefault();
-                document.querySelector(elem.getAttribute("href")).scrollIntoView({
-                    behavior: "smooth",
-                    offsetTop: 1 - 60,
-                });
-            });
-        });
-
-        // section menu active
-        function onScroll(event) {
-            const sections = document.querySelectorAll(".ud-menu-scroll");
-            const scrollPos =
-                window.pageYOffset ||
-                document.documentElement.scrollTop ||
-                document.body.scrollTop;
-
-            for (let i = 0; i < sections.length; i++) {
-                const currLink = sections[i];
-                const val = currLink.getAttribute("href");
-                const refElement = document.querySelector(val);
-                const scrollTopMinus = scrollPos + 73;
-                if (
-                    refElement.offsetTop <= scrollTopMinus &&
-                    refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
-                ) {
-                    document
-                        .querySelector(".ud-menu-scroll")
-                        .classList.remove("active");
-                    currLink.classList.add("active");
-                } else {
-                    currLink.classList.remove("active");
-                }
-            }
-        }
-
-        window.document.addEventListener("scroll", onScroll);
-    </script>
-</body>
-
+  </body>
 </html>
