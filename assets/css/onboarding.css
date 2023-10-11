@@ -348,6 +348,9 @@ body {
     height: 4px;
   }
 }
+.banner {
+  margin-top: 4rem;
+}
 .banner img {
   width: 100%;
 }
@@ -363,7 +366,6 @@ body {
     background-repeat: no-repeat;
     -o-object-fit: fill;
     object-fit: fill;
-    padding: 2rem 0;
   }
 }
 

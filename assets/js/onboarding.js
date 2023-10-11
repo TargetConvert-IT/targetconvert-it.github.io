@@ -11,12 +11,10 @@ form.addEventListener("submit", (e) => {
     .then((response) => {
       console.log("Success!", response);
       // 隱藏form
-      form.style.display = "none";
-      // 顯示modal
-      setTimeout(() => {
-        document.getElementById("anchor").scrollIntoView({ block: "end" });
-      }, 300);
+      // form.style.display = "none";
+
       // 放煙火
+      alert("送出成功");
       startFirework();
       // 清除表單
       form.reset();
