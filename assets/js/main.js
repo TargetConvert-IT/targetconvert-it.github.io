@@ -117,7 +117,7 @@ var swiper = new Swiper(".swiper-container", {
   spaceBetween: 64,
   slideToClickedSlide: true,
   autoplay: {
-    delay: 1500,
+    delay: 3000,
     disableOnInteraction: false,
     pauseOnMouseEnter: true,
   },
