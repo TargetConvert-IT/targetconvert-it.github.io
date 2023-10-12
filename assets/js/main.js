@@ -100,7 +100,6 @@ window.addEventListener("scroll", function () {
 });
 
 // click menu outside
-const navMobile = document.getElementById("nav-mobile");
 
 document.onclick = function (e) {
   if (e.target.id !== "nav-hamburger") {

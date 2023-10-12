@@ -79,3 +79,13 @@ function startFirework() {
   });
   fireworks.start();
 }
+// menu
+const hamburger = document.querySelector(".nav-hamburger");
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("is-active");
+});
+document.onclick = function (e) {
+  if (e.target.id !== "nav-hamburger") {
+    hamburger.classList.remove("is-active");
+  }
+};
