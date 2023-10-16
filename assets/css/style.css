@@ -434,6 +434,7 @@ a {
   font-weight: 700;
   line-height: 150%;
   font-size: clamp(0.8rem, 0.6946rem + 0.3393vw, 1rem);
+  text-align: center;
 }
 .hero-outer-2 .hero .content p {
   font-family: "Montserrat";
