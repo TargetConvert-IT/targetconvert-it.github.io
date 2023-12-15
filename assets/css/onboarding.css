@@ -649,8 +649,9 @@ main {
 .modal.show {
   opacity: 1;
   margin: 5rem auto;
-  height: auto;
-  position: absolute;
+  height: 1px;
+  top: 0;
+  width: 1px;
 }
 @media screen and (max-width: 600px) {
   .modal {
