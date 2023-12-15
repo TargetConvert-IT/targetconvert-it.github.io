@@ -525,6 +525,7 @@ main {
   text-decoration: none;
   cursor: pointer;
   outline: 0;
+  position: relative;
 }
 .form .submit-button:hover {
   background-color: #5f4e0f;
