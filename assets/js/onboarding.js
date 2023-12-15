@@ -14,8 +14,8 @@ form.addEventListener("submit", (e) => {
       // form.style.display = "none";
 
       // 放煙火
-      alert("送出成功");
       startFirework();
+      alert("送出成功");
       // 清除表單
       form.reset();
     })
