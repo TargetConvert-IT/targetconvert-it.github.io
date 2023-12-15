@@ -650,7 +650,7 @@ main {
   opacity: 1;
   margin: 5rem auto;
   height: auto;
-  position: relative;
+  position: absolute;
 }
 @media screen and (max-width: 600px) {
   .modal {

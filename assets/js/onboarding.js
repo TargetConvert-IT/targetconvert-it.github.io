@@ -16,6 +16,8 @@ form.addEventListener("submit", (e) => {
       // 放煙火
       startFirework();
       alert("送出成功");
+      document.querySelector(".modal").classList.add("show");
+
       // 清除表單
       form.reset();
     })
