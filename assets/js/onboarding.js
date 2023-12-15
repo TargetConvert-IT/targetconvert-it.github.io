@@ -14,9 +14,9 @@ form.addEventListener("submit", (e) => {
       // form.style.display = "none";
 
       // 放煙火
-      startFirework();
-      alert("送出成功");
       document.querySelector(".modal").classList.add("show");
+      alert("送出成功");
+      startFirework();
 
       // 清除表單
       form.reset();
